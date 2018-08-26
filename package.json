@@ -1,0 +1,25 @@
+{
+  "name": "execute",
+  "version": "0.0.1",
+  "description": "Node.js - Quickly execute an executable file",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "ts-node --project tsconfig.json tests/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisiwu/execute.git"
+  },
+  "author": "demingongo (https://github.com/demingongo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kisiwu/execute/issues"
+  },
+  "homepage": "https://github.com/kisiwu/execute#readme",
+  "devDependencies": {
+    "@types/node": "^10.9.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
