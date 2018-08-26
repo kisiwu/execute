@@ -1,2 +1,2 @@
 # execute
-Node.js - Quickly execute an executable file
+Node.js - Quickly run a cmd or script in a child process
